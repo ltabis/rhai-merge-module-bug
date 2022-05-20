@@ -1,7 +1,7 @@
 fn main() {
     let mut engine = rhai::Engine::new();
     engine.set_module_resolver(rhai::module_resolvers::FileModuleResolver::new_with_path(
-        "user",
+        "./user",
     ));
 
     let mut ast = engine
