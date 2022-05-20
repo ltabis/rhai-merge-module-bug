@@ -1,0 +1,21 @@
+[package]
+name = "rhai-merge-module-bug"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rhai = { version = "1.7.0", git = "https://github.com/schungx/rhai", rev = "46c1d86221bcf123fbc132aa011aa2425348f7be", features = [
+    "unchecked",
+    "sync",
+    "internals",
+    "no_closure",
+] }
+
+# rhai = { version = "1.7.0", features = [
+#     "unchecked",
+#     "sync",
+#     "internals",
+#     "no_closure",
+# ] }
