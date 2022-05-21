@@ -93,7 +93,7 @@ dependencies = [
 [[package]]
 name = "rhai"
 version = "1.7.0"
-source = "git+https://github.com/schungx/rhai?rev=46c1d86221bcf123fbc132aa011aa2425348f7be#46c1d86221bcf123fbc132aa011aa2425348f7be"
+source = "git+https://github.com/schungx/rhai?rev=5435fdb8c8b4875149e5e9d8cbd8b34eb4988e82#5435fdb8c8b4875149e5e9d8cbd8b34eb4988e82"
 dependencies = [
  "ahash",
  "bitflags",
@@ -114,7 +114,7 @@ dependencies = [
 [[package]]
 name = "rhai_codegen"
 version = "1.4.0"
-source = "git+https://github.com/schungx/rhai?rev=46c1d86221bcf123fbc132aa011aa2425348f7be#46c1d86221bcf123fbc132aa011aa2425348f7be"
+source = "git+https://github.com/schungx/rhai?rev=5435fdb8c8b4875149e5e9d8cbd8b34eb4988e82#5435fdb8c8b4875149e5e9d8cbd8b34eb4988e82"
 dependencies = [
  "proc-macro2",
  "quote",
